@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <button id="start-play">Play Now</button>
+
+        <div class="heading">Tic-Tac-Toe</div>
+        <div class="board">
+            <div class="row">
+                <div id="0" class="cell" onclick="handleClick(this)"></div>
+                <div id="1" class="cell" onclick="handleClick(this)"></div>
+                <div id="2" class="cell" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div id="3" class="cell" onclick="handleClick(this)"></div>
+                <div id="4" class="cell" onclick="handleClick(this)"></div>
+                <div id="5" class="cell" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div id="6" class="cell" onclick="handleClick(this)"></div>
+                <div id="7" class="cell" onclick="handleClick(this)"></div>
+                <div id="8" class="cell" onclick="handleClick(this)"></div>
+            </div>
+        </div>
+        <div class="turn-show">X's Turn</div>
+    </div>
+    <div class="show-restart">
+        <div class="text-winner">X Wins</div>
+        <button class="restart">Restart</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
